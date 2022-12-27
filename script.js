@@ -12,6 +12,9 @@ switch (day) {
     case thursday:
         console.log("Write code example")
         break
+    case friday:
+        console.log("Record videos")
+        break
     default:
-        break;
+    break;
 }
