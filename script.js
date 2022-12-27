@@ -1,22 +1,22 @@
 const day = "monday"
 
 switch (day) {
-    case monday:
+    case 'monday':
         console.log("Plan Course Structure")
         console.log("Go to coding meetup")
         break;
-    case tuesday:
+    case 'tuesday':
         console.log("Prepare theory videos")
         break
-    case wednesday:
-    case thursday:
+    case 'wednesday':
+    case 'thursday':
         console.log("Write code example")
         break
-    case friday:
+    case 'friday':
         console.log("Record videos")
         break
-    case saturday:
-    case sunday:
+    case 'saturday':
+    case 'sunday':
         console.log("Enjoy the weekend")
         break
     default:
